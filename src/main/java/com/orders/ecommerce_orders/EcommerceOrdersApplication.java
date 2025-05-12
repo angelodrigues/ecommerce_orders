@@ -9,5 +9,4 @@ public class EcommerceOrdersApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EcommerceOrdersApplication.class, args);
 	}
-
 }
