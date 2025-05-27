@@ -21,7 +21,7 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name = "tb_order")
+@Table(name = "tb_order", schema = "order_ms")
 @Data
 public class Order {
 
