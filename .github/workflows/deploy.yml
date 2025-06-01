@@ -40,3 +40,4 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/ecommerce_orders:latest
             docker stop ecommerce_order || true && docker rm ecommerce_order || true
             docker run -d --name ecommerce_order -p 8084:8084 ${{ secrets.DOCKER_USERNAME }}/ecommerce_orders:latest
+            
